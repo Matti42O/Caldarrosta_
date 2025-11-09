@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caldarrosta 💕</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Schermata iniziale con effetto scrittura -->
+    <div id="intro">
+        <div class="intro-container">
+            <div id="intro-text"></div>
+            <button id="continueBtn" class="hidden">Continua 💕</button>
+        </div>
+    </div>
+
+    <!-- Contenuto principale -->
+    <div id="main-content" class="hidden">
+        <header>
+            <h1>Cuoricini 💕</h1>
+            <p class="subtitle">La nostra storia d'amore</p>
+        </header>
+
+        <!-- Carosello foto -->
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <!-- Le foto verranno caricate qui -->
+            </div>
+            
+            <!-- Controlli carosello -->
+            <button class="nav-btn prev" id="prevBtn">⬅️</button>
+            <button class="nav-btn next" id="nextBtn">➡️</button>
+            
+            <!-- Indicatori -->
+            <div class="indicators" id="indicators"></div>
+        </div>
+
+        <!-- Bottone manda bacio -->
+        <button class="heart-btn" id="heartBtn">
+            <span class="heart-icon">❤️</span>
+            <span>Manda un bacio</span>
+        </button>
+
+        <!-- Area notifiche -->
+        <div id="notificationArea" class="notification-area"></div>
+    </div>
+
+    <!-- Effetti speciali -->
+    <div id="heartEffects"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
